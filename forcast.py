@@ -1,6 +1,5 @@
 from azuredb import AzureSQLDatabase
 
-#forcast = Forecast(region_name, warning_summary, issue_date, wind, sea_state, weather, visibility)
 class Forecast:
     def __init__(self, region_name,warning_summary, issue_date, wind,sea_state,weather,visibility):
         self.region_name = region_name
