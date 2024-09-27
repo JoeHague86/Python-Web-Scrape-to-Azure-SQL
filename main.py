@@ -19,8 +19,6 @@ def convert_to_tsql_datetime(date_string):
 
 def main():
 
-    pw = os.getenv('PW')
-
     # URL of the shipping forecast page
     url = "https://www.metoffice.gov.uk/weather/specialist-forecasts/coast-and-sea/shipping-forecast"
 
