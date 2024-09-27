@@ -9,7 +9,7 @@ def convert_to_tsql_datetime(date_string):
     # Define the format of the input date string
     input_format = "%H:%M (%Z) on %a %d %b %Y"
     
-    # Parse the input string to a datetime object
+    # Parse the input string to a datetime object which initially looks like 21:50 (UTC) on Thu 26 Sep 2024
     datetime_obj = datetime.strptime(date_string, input_format)
     
     # Convert the datetime object to a string in T-SQL DATETIME format
